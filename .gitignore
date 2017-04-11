@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+out
+.idea
+AlgorithmInJAVA.iml
+lib
+.idea/
+Chapter1/
+Chapter2/
+algs4.jar
+lib/
+out/
