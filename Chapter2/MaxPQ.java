@@ -4,6 +4,7 @@
  * @date 12/04/2017 9:39 AM
  */
 public class MaxPQ {
+
     private Comparable[] pq;
     private int N = 0;
 
