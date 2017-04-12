@@ -3,6 +3,7 @@ import edu.princeton.cs.algs4.*;
 import java.lang.*;
 public class DrawTest
 {
+
     public static void Draw1()
     {
         int N=100;
