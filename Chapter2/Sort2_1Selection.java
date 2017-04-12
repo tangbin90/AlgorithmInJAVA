@@ -2,6 +2,9 @@ import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 import org.junit.Test;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.Comparator;
 
 import static org.junit.Assert.assertEquals;
@@ -46,10 +49,13 @@ public class Sort2_1Selection {
         return true;
     }
 
-    public static void main(String[] args){
-        String[] a = In.readStrings();
+    public static void main(String[] args) throws Exception{
+        /*String[] a = In.readStrings();
         selection(a);
         assertEquals(isSorted(a),true);
-        show(a);
+        show(a);*/
+        File fl =new File("Resorces/test.txt");
+        In streams = new In(fl);
+        System.out.println(streams.readLine());
     }
 }

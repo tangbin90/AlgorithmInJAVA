@@ -20,7 +20,7 @@ public class Stats
         double std=Math.sqrt(sum/(N-1));
         StdOut.printf("Mean:%.2f\n",mean);
         StdOut.printf("Std dev: %.2f\n",std);*/
-        String a="testnum";
+        String a="testnum.txt";
         readInts(a);    }
     
     public static int[] readInts(String name)
