@@ -1,18 +1,18 @@
-/******************************************************************************
- *  Compilation:  javac BinarySearch.java
- *  Execution:    java BinarySearch whitelist.txt < input.txt
+package Chapter1; /******************************************************************************
+ *  Compilation:  javac Chapter1.BinarySearch.java
+ *  Execution:    java Chapter1.BinarySearch whitelist.txt < input.txt
  *  Dependencies: In.java StdIn.java StdOut.java
  *  Data files:   http://algs4.cs.princeton.edu/11model/tinyW.txt
  *                http://algs4.cs.princeton.edu/11model/tinyT.txt
  *                http://algs4.cs.princeton.edu/11model/largeW.txt
  *                http://algs4.cs.princeton.edu/11model/largeT.txt
  *
- *  % java BinarySearch tinyW.txt < tinyT.txt
+ *  % java Chapter1.BinarySearch tinyW.txt < tinyT.txt
  *  50
  *  99
  *  13
  *
- *  % java BinarySearch largeW.txt < largeT.txt | more
+ *  % java Chapter1.BinarySearch largeW.txt < largeT.txt | more
  *  499569
  *  984875
  *  295754
@@ -26,7 +26,7 @@
 import java.util.Arrays;
 import edu.princeton.cs.algs4.*;
 /**
- *  The <tt>BinarySearch</tt> class provides a static method for binary
+ *  The <tt>Chapter1.BinarySearch</tt> class provides a static method for binary
  *  searching for an integer in a sorted array of integers.
  *  <p>
  *  The <em>rank</em> operations takes logarithmic time in the worst case.

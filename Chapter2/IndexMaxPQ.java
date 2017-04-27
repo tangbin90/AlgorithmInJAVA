@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- *  The {@code IndexMaxPQ} class represents an indexed priority queue of generic keys.
+ *  The {@code Chapter2.IndexMaxPQ} class represents an indexed priority queue of generic keys.
  *  It supports the usual <em>insert</em> and <em>delete-the-maximum</em>
  *  operations, along with <em>delete</em> and <em>change-the-key</em>
  *  methods. In order to let the client refer to items on the priority queue,
@@ -310,7 +310,7 @@ public class IndexMaxPQ<Key extends Comparable<Key>> implements Iterable<Integer
     }
 
     /**
-     * Unit tests the {@code IndexMaxPQ} data type.
+     * Unit tests the {@code Chapter2.IndexMaxPQ} data type.
      *
      * @param args the command-line arguments
      */
